@@ -1,2 +1,3 @@
-# LMSC-261-ProblemSets
+# LMSC-261-ProblemSet1 
  
+The algorithm's target is to find the name **'smith'** in a list of names in the phone book by binary search approach.**'pick up phone book''open to middle of phone book'** and **'look at names'** means this algorithm find the name by diveding the names to two halves and search from middle. The purpose of **'if Smith is among names' 'call Mike'** is to check if the name is on the middle page. If it is, then the name is found and call a person called **'Mike'**. **'else if Smith is earlier in book'** and **'else if Smith is later in book'** means that if **'Smith'** is not found on the middle page, go to check the first or second half of the book;and **'open to middle of right half of book''go back to step 2'** means repeatly using the same searching approach to narrow the range until find the name.**'else quit'** means if the name is not found on the book, quit the algorithm. 
