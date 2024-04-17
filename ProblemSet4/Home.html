@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Homepage</title> 
+    <link href="styles.css" rel="stylesheet"> <!-- Link to external CSS file -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="Home.html">Home</a></li> <!-- link to the home page -->
+            <li><a href="music.html">Music</a></li> <!-- link to the music page -->
+            <li><a href="hobby.html">Hobby</a></li> <!-- link to the hobby page -->
+        </ul>
+        <h1>Penghui Ruan</h1> 
+    </header>
+    <section>
+        <h2>Welcome to my website!</h2> 
+        <p>Hi, I'm Penghui.</p> 
+        <select id="background-color">
+            <!-- Dropdown menu for selecting background color -->
+            <option value="Black">Black</option> 
+            <option value="lightblue">Blue</option> 
+            <option value="Cyan">Cyan</option> 
+        </select>
+        <button onclick="displayText()">Show Text</button> <!-- Button to show text -->
+        <p id="text"></p>
+    </section>
+    <script>
+        document.getElementById('background-color').addEventListener('change', function() {
+            document.body.style.backgroundColor = this.value;
+        });
+        function displayText() {
+            document.getElementById('text').innerHTML = "It's like I don't think you fully understand who I am, y'know?";
+        }
+        <!-- JavaScript function defined to display text in the paragraph with id="text" when button is clicked -->
+    </script>
+
+</body>
+
+</html>

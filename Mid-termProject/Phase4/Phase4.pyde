@@ -5,9 +5,9 @@ def setup():
 
 def draw():
    
-   columns = 10
+   columns = 5
    columnwidth = width/columns #calculate the width of each column
-   rows = 10
+   rows = 5
    rowheight = height/rows #calculate the height of each row
    
    s = 5.0/float(columns)#apply scale
@@ -33,8 +33,8 @@ def drawObject(x,y,s,R):
     ellipse(165,115,60,40)# right hand
     ellipse(100,100,140,140)# body
 
-    # Mouse
-    bezier(85, 105, 100, 120, 110, 105, 110, 105) # mouse
+    # Mouth
+    bezier(85, 105, 100, 120, 110, 105, 110, 105) # mouth
     bezier(40, 70, 5, 70, 5, 95, 30, 110) # left hand
      
     # Blush

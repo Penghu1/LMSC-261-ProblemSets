@@ -1,0 +1,64 @@
+header {                /* styling for the header, aligns text to the left */
+    text-align: Left;
+}
+
+ul {                    /* Styles for unordered lists */
+    display: flex;      /* setting layout to flex to display items in a row */
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+li{
+    margin: 0 20px      /* margin for list items */
+
+}
+
+title{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+a{
+    color: rgb(255, 255, 255);  /* setting link color */
+    
+}
+
+h1 {                              /* styling for main heading */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 150px;  
+  }
+
+body {                             /* styling for body */
+    
+    font-family: Arial;
+    background-color: #000000;  /* background color*/
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+h2 {                                /* styling for subheading */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 65px;
+  }
+
+p {                                 /* styling for paragraph */
+    color: rgb(255, 255, 255);
+    font-family: verdana;
+    font-size: 30px;
+  }
+
+section{                            /* position for section */
+    position:relative;
+    text-align: center;
+}
+
+img {                               /* image size */
+    width: 30%;
+    height: auto;
+
+}
+   

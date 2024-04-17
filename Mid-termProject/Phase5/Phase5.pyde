@@ -79,8 +79,8 @@ def drawObject(x,y,s,R):
     ellipse(165,115,60,40)# right hand
     ellipse(100,100,140,140)# body
 
-    # Mouse
-    bezier(85, 105, 100, 120, 110, 105, 110, 105) # mouse
+    # Mouth
+    bezier(85, 105, 100, 120, 110, 105, 110, 105) # mouth
     bezier(40, 70, 5, 70, 5, 95, 30, 110) # left hand
      
     # Blush
